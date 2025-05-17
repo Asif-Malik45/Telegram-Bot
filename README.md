@@ -37,7 +37,7 @@ Cyber Bot is an AI-powered Telegram chatbot designed to explain (cybersecurity t
 ---
 
 ## 🔐 Use Case
-@ go to --->> t.me/CyberTech_bot
+@ go to --->> htts://t.me/CyberTech_bot
 Ask about a the topic before calling @CyberTech_bot..
 
 Example:
