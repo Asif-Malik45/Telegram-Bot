@@ -20,8 +20,8 @@ groq_api_key = os.getenv("groq_api_key")
 def setup_llm_chain(topic = "Cyber Security"):
     prompt = ChatPromptTemplate.from_messages(
         [
-            ("system", "You are an AI cyber security expert, give concise, precise and structured explain about the user's query"),
-            ("user", f"give short note on topic: {topic}")
+            ("system", "You are an AI cyber security expert, give concise, precise and structured explain about the user's query. But do not use the words like 'let me think', 'i do not sure', 'let me understand' and so on"),
+            ("user", f"explain the topic: {topic}")
         ]
     )
     
